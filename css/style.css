@@ -2,6 +2,7 @@
 
 #header {position: fixed; left: 0; top: 0; padding: 0 150px; border-bottom: 1px solid rgba(255,255,255,0.3); width: 100%; z-index: 999;}
 #header .inner {height: 50px; display: flex; justify-content: space-between; align-items: center;}
+#header .inner h1 a {color: #fff; font-weight: 600; font-size: 30px;}
 #header .gnb li {display: inline-block; margin: 0 40px;}
 #header .gnb li a {color: #fff; font-size: 20px;}
 #header .util li {display: inline-block; margin: 0 10px;}

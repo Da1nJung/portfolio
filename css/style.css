@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#header {position: fixed; left: 0; top: 0; padding: 0 150px; border-bottom: 1px solid rgba(255,255,255,0.3); width: 100%; z-index: 999;}
+#header .inner {height: 50px; display: flex; justify-content: space-between; align-items: center;}
+#header .gnb li {display: inline-block; margin: 0 40px;}
+#header .gnb li a {color: #fff; font-size: 20px;}
+#header .util li {display: inline-block; margin: 0 10px;}
+#header .util li a {color: rgba(255,255,255,0.7);}
+
+#main_visual {background: url(../images/main_vis.jpg) no-repeat center center; font-size: 0;}
+#PP1 {background: url(../images/pp1.jpg) no-repeat center center; font-size: 0;}
+#PP2 {background: url(../images/pp2.jpg) no-repeat center center; font-size: 0;}
+#Aboutme {background: url(../images/aboutme.jpg) no-repeat center center; font-size: 0;}
+#Epilogue {background: url(../images/epi.jpg) no-repeat center center; font-size: 0;}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {background: #fff;}
+
+
+#fullpage {color: #fff; font-size: 100px; text-align: center;}

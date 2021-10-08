@@ -19,9 +19,9 @@
             var myFullpage = new fullpage('#fullpage', {
                 menu: '#menu',
                 navigation: true,
-                navigationTooltips: ['메인배너', '포트폴리오1', '포트폴리오2', 'About Me', 'Epilogue'],
+                navigationTooltips: ['Intro', 'Portfolio [1]', 'Portfolio [2]', 'About Me', 'Epilogue'],
                 anchors: ['menu1', 'menu2', 'menu3', 'menu4', 'menu5'],
-                sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+                sectionsColor: [],
                 autoScrolling: true,
                 licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
             }); 
@@ -32,13 +32,13 @@
     
     <header id="header">
         <div class="inner">
-            <h1><a href="#">정다인 포트폴리오</a></h1>
+            <h1><a href="#">Dain Jung Portfolio</a></h1>
 
             <nav>
                 <ul class="gnb">
-                    <li><a href="#menu1">메인배너</a></li>
-                    <li><a href="#menu2">포트폴리오1</a></li>
-                    <li><a href="#menu3">포트폴리오2</a></li>
+                    <li><a href="#menu1">Intro</a></li>
+                    <li><a href="#menu2">Portfolio [1]</a></li>
+                    <li><a href="#menu3">Portfolio [2]</a></li>
                     <li><a href="#menu4">About Me</a></li>
                     <li><a href="#menu5">Epilogue</a></li>
                 </ul>
@@ -47,14 +47,117 @@
     </header>    
     <div id="fullpage">
         <div id="main_visual" class="section" data-anchor-="menu1">
-            <h2>메인배너</h2>
+            <h2>Main Banner</h2>
+            <p>Dain Jung Portfolio site</p>
         </div> <!-- main_visual -->
-        <div id="PP1" class="section" data-anchor-="menu2">
-            <h2>포트폴리오1</h2>
-        </div> <!-- program -->
+        <div id="PP1" class="section clearfix" data-anchor-="menu2">
+            <ul class="left_pp">
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_1.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project1</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="ui_ux_project.html">
+                        <img src="images/pp1_2.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project2</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_3.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project3</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_4.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project4</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>             
+            </ul> <!-- left_pp -->
+
+            <div class="right_pp">
+                    <a href="#">
+                        <img src="images/pp1_5.jpg" alt="pp1">
+                        <dl>
+                            <dl>
+                                <dt>Project5</dt>
+                                <dd>View more</dd>
+                            </dl>
+                        </dl>
+                    </a>
+            </div> <!-- right_pp -->
+        </div> <!-- PP1 -->
+
+
+
         <div id="PP2" class="section" data-anchor-="menu3">
-            <h2>포트폴리오2</h2>
-        </div>
+            <ul class="left_pp">
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_1.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project1</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_2.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project2</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_3.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project3</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pp1_4.jpg" alt="pp1">
+                        <dl>
+                            <dt>Project4</dt>
+                            <dd>View more</dd>
+                        </dl>
+                    </a>
+                </li>             
+            </ul> <!-- left_pp -->
+
+            <div class="right_pp">
+                    <a href="#">
+                        <img src="images/pp1_5.jpg" alt="pp1">
+                        <dl>
+                            <dl>
+                                <dt>Project5</dt>
+                                <dd>View more</dd>
+                            </dl>
+                        </dl>
+                    </a>
+            </div> <!-- right_pp -->
+        </div> <!-- pp2 -->
+
         <div id="Aboutme" class="section" data-anchor-="menu4">
             <h2>자기소개</h2>
         </div>

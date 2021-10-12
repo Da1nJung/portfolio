@@ -8,11 +8,13 @@
 
     <link href="css/common.css" rel="stylesheet" type="text/css">
     <link href="css/fullpage.css" rel="stylesheet" type="text/css">
-    <link href="css/ani.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/fullpage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    
 
     <script>
         $(document).ready(function() {
@@ -20,7 +22,7 @@
                 menu: '#menu',
                 navigation: true,
                 navigationTooltips: ['Intro', 'Portfolio [1]', 'Portfolio [2]', 'About Me', 'Epilogue'],
-                anchors: ['menu1', 'menu2', 'menu3', 'menu4', 'menu5'],
+                anchors: ['menu1', 'menu2', 'menu3', 'menu4', 'menu5', 'menu6'],
                 sectionsColor: [],
                 autoScrolling: true,
                 licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
@@ -37,10 +39,10 @@
             <nav>
                 <ul class="gnb">
                     <li><a href="#menu1">Intro</a></li>
-                    <li><a href="#menu2">Portfolio [1]</a></li>
-                    <li><a href="#menu3">Portfolio [2]</a></li>
+                    <li><a href="#menu2">Portfolio</a></li>
                     <li><a href="#menu4">About Me</a></li>
-                    <li><a href="#menu5">Epilogue</a></li>
+                    <li><a href="#menu5">Skill</a></li>
+                    <li><a href="#menu6">Epilogue</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,7 +55,7 @@
         <div id="PP1" class="section clearfix" data-anchor-="menu2">
             <ul class="left_pp">
                 <li>
-                    <a href="#">
+                    <a href="web1_project.html">
                         <img src="images/pp1_1.jpg" alt="pp1">
                         <dl>
                             <dt>Project1</dt>
@@ -62,8 +64,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="ui_ux_project.html">
-                        <img src="images/pp1_2.jpg" alt="pp1">
+                    <a href="#">
+                        <img src="images/pp1_3.jpg" alt="pp1">
                         <dl>
                             <dt>Project2</dt>
                             <dd>View more</dd>
@@ -80,8 +82,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="images/pp1_4.jpg" alt="pp1">
+                    <a href="ui_ux_project.html">
+                        <img src="images/pp1_2.jpg" alt="pp4">
                         <dl>
                             <dt>Project4</dt>
                             <dd>View more</dd>
@@ -159,9 +161,80 @@
         </div> <!-- pp2 -->
 
         <div id="Aboutme" class="section" data-anchor-="menu4">
-            <h2>자기소개</h2>
+            <h2>About Me</h2>
+            <ul class="about_txt">
+                <li>Name : Jung Da In</li>
+                <li>Birth : 1996 07 19</li>
+                <li>Tel : 010-4130-8322</li>
+                <li>e-mail : ekdls756@naver.com</li>
+                <li>포트폴리오 주소</li>
+                <li>부산 IT 교육센터 반응형 웹디자인&퍼블리싱 과정 수료</li>
+            </ul>
+            
         </div>
-        <div id="Epilogue"class="section" data-anchor-="menu5">
+
+        <div id="Skill" class="section" data-anchor-="menu5">
+            <h2>Skill</h2>
+
+            <div class="charts">
+                <div class="chart chart1" data-percent="90">
+                    <div class="desc">
+                        <h3>90%</h3>
+                        <dl>
+                            <dt>Photoshop</dt>
+                            <dd>홈페이지 시안, 포스터, 전단지,<br>
+                                배너 등을 제작할 수 있습니다.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="chart chart2" data-percent="75">
+                    <div class="desc">
+                        <h3>75%</h3>
+                        <dl>
+                            <dt>Illustrator</dt>
+                            <dd>홈페이지 시안, 포스터, 전단지,<br>
+                                배너 등을 제작할 수 있습니다.</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="chart chart3" data-percent="70">
+                    <div class="desc">
+                        <h3>70%</h3>
+                        <dl>
+                            <dt>XD</dt>
+                            <dd>홈페이지 시안, 아이콘, UI/UX<br>
+                            프로토타입을 제작할 수 있습니다.</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="chart chart4" data-percent="65">
+                    <div class="desc">
+                        <h3>60%</h3>
+                        <dl>
+                            <dt>HTML/CSS</dt>
+                            <dd>웹표준을 준수하는<br>
+                                웹사이트를 제작할 수 있습니다.</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="chart chart5" data-percent="60">
+                    <div class="desc">
+                        <h3>50%</h3>
+                        <dl>
+                            <dt>jQuery</dt>
+                            <dd>기초 제이쿼리 코드를 활용하여 페이드,<br>
+                                슬라이드 효과를 제작할 수 있습니다.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="Epilogue"class="section" data-anchor-="menu6">
             <h2>에필로그</h2>
         </div>
     </div>

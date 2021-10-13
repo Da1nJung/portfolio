@@ -13,9 +13,13 @@
 #header .util li a {color: rgba(255,255,255,0.7);}
 
 
-#main_visual {background: #ffbf00; text-align: center; position: relative;}
-#main_visual h2 {color: #fff; text-transform: uppercase; font-size: 70px; font-weight: 600; font-family: 'Roboto'; position: absolute; left: 50%; top: 40%; transform: translateX(-50%);}
-#main_visual p {color: #ff8800; font-size: 20px; font-weight: 600; font-family: 'Roboto'; letter-spacing: 11px;  position: absolute; left: 50%; top: 50%; transform: translateX(-50%);}
+#main_visual {background: url(../images/mv1.jpg) no-repeat center top; background-size: cover; text-align: center; position: relative;}
+#main_visual .box h2 {color: #fff; text-transform: uppercase; font-size: 100px; font-weight: 600; font-family: 'Roboto'; position: absolute; left: 50%; top: 40%; transform: translateX(-50%);}
+
+
+
+#main_visual p {color: #ff8800; font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 53%; transform: translateX(-50%);}
+
 
 
 /* pp1 */
@@ -69,8 +73,9 @@
 
 #Aboutme h2 {font-size: 50px; color: #222; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 100px; transform: translateX(-50%);}
 
-.about_txt {font-size: 18px; color: #222; position: absolute; left: 420px; top: 310px;}
+.about_txt {font-size: 18px; color: #222; position: absolute; left: 420px; top: 320px;}
 .about_txt li {width: 500px; border-bottom: 1px solid #ddd; padding: 22px 0;}
+.about_txt li a {font-size: 18px; color: #222;}
 .about_txt li:first-child {border-top: 1px solid #ddd; }
 
 .photo {width: 400px; height: 500px; border: 2px solid #666; position: absolute; right: 500px; top: 270px;}
@@ -78,20 +83,13 @@
 
 
 /* skill */
-#Skill {position: relative; background: linear-gradient(90deg, rgba(21,28,32,1) 0%, rgba(68,85,93,1) 100%);}
+#Skill {position: relative; background: linear-gradient( rgba(32,39,58,1) 0%, rgba(77,96,110,1) 100%);}
 
 
 #Skill h2 {font-size: 50px; color: #fff; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 120px; transform: translateX(-50%);}
 
 .charts {position: absolute; left: 50%; top: 350px; transform: translateX(-50%); width: 1500px;}
 .chart {position: relative; float: left; width: 300px; height: 300px; text-align: center;}
-
-/* .chart1:before {content: ''; display: block; width: 30px; height: 30px; background: url(../images/Photoshop.svg) no-repeat center center; background-size: contain; position: absolute; left: 50%; top: 45px; transform: translateX(-50%);}
-.chart2:before {content: ''; display: block; width: 30px; height: 30px; background: url(../images/Illustrator.svg) no-repeat center center; background-size: contain; position: absolute; left: 50%; top: 45px; transform: translateX(-50%);}
-.chart3:before {content: ''; display: block; width: 30px; height: 30px; background: url(../images/Xd.svg) no-repeat center center; background-size: contain; position: absolute; left: 50%; top: 45px; transform: translateX(-50%);}
-.chart4:before {content: ''; display: block; width: 30px; height: 30px; background: url(../images/HTML5_logo_and_wordmark2.svg) no-repeat center center; background-size: contain; position: absolute; left: 50%; top: 45px; transform: translateX(-50%);}
-.chart5:before {content: ''; display: block; width: 30px; height: 30px; background: url(../images/CSS3_logo_and_wordmark2.svg) no-repeat center center; background-size: contain; position: absolute; left: 50%; top: 45px; transform: translateX(-50%);}
-.chart6:before {content: ''; display: block; width: 30px; height: 30px; background: url(../images/Javascript-shield2.svg) no-repeat center center; background-size: contain; position: absolute; left: 50%; top: 45px; transform: translateX(-50%);} */
 
 .chart .desc h3 {font-size: 45px; position: absolute; left: 50%; top: 50px; transform: translateX(-50%); font-weight: 600;}
 
@@ -101,10 +99,14 @@
 
 
 
+#Epilogue h2 {font-size: 50px; color: #222; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 150px; transform: translateX(-50%);}
+#Epilogue p {font-size: 20px; color: #666; position: absolute; left: 50%; top: 250px; transform: translateX(-50%);}
 
-#Epilogue {background: url(../images/epi.jpg) no-repeat center center; font-size: 0;}
+#Epilogue {position: relative; background: #fff;}
+#Epilogue footer {width: 100%; height: 120px; color: rgba(238,238,238,0.5); font-size: 20px; background: #1b1b1b; position: absolute; bottom: 0; font-family: 'Roboto';}
+#Epilogue footer p {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span {background: #fff;}
 
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span {background: #fff; box-shadow: 0px 0px 6px rgba(32,39,58,0.7);}
 #fullpage {color: #fff; font-size: 100px; text-align: center;}

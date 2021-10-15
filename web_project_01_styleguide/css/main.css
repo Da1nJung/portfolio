@@ -29,8 +29,6 @@
 .popup dl dd:hover:after {background: #fff; transform: rotate(135deg);}
 
 
-/* header */
-
 #header {background: url(../images/header1_2.png) no-repeat center top; text-align: center;}
 #header .header_txt {padding-top: 85px;}
 #header .pc {padding-top: 25px;}

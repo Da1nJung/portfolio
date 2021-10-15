@@ -14,11 +14,55 @@
 
 
 #main_visual {background: url(../images/mv1.jpg) no-repeat center top; background-size: cover; text-align: center; position: relative;}
-#main_visual .box h2 {color: #fff; text-transform: uppercase; font-size: 100px; font-weight: 600; font-family: 'Roboto'; position: absolute; left: 50%; top: 40%; transform: translateX(-50%);}
+/* #main_visual .box h2 {color: #fff; text-transform: uppercase; font-size: 100px; font-weight: 600; font-family: 'Roboto'; position: absolute; left: 50%; top: 40%; transform: translateX(-50%);} */
+#main_visual .box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#main_visual .box h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 900;
+}
+#main_visual .box h2 span {
+    display: inline-flex;
+    color: #ffbf00;
+}
+
+#main_visual .box h2 span:nth-child(even) {
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+    color: #fff;
+    border-bottom: 5px solid #ffbf00;
+    letter-spacing: -1em;
+}
+
+#main_visual .box h2:hover span:nth-child(even) {
+    letter-spacing: 0;
+}
+#main_visual .box h2:hover span:nth-child(2) {
+    transition-delay: 0s;
+}
+#main_visual .box h2:hover span:nth-child(4) {
+    transition-delay: 0.5s;
+}
+#main_visual .box h2:hover span:nth-child(6) {
+    transition-delay: 1s;
+}
+#main_visual .box h2:hover span:nth-child(8) {
+    transition-delay: 1.5s;
+}
 
 
 
-#main_visual p {color: #ff8800; font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 53%; transform: translateX(-50%);}
+#main_visual p {color: rgba(255,255,255,0.7); font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 59%; transform: translateX(-50%);}
 
 
 

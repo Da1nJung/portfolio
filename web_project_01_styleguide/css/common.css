@@ -4,13 +4,13 @@
 
 
 /* 스타일 초기화 */
-html { font-size: 100%; overflow-y: scroll; }
+html { font-size: 16px; overflow-y: scroll; scroll-behavior: smooth; }
 
 /* 요소 여백 초기화  */
-article,aside,audio,blockquote,body,canvas,caption,dd,details,div,dl,dt,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,iframe,legend,li,main,menu,nav,ol,p,pre,section,summary,table,tbody,td,template,textarea,tfoot,th,thead,tr,ul,video { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* 하이퍼링크 설정 */
-a,a:hover { color: #000; text-decoration: none; }
+a { color: #000; text-decoration: none; }
 
 /* 제목요소 */
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; } 
@@ -33,10 +33,15 @@ fieldset, img, input { border: 0 none; outline: none; }
 /* 수직정렬 */
 input, select, textarea { vertical-align: middle; }
 
-
-
 /* 공통사항 */
-body { font-family: 'Noto Sans KR', 'Roboto', sans-serif; font-size: 100%; line-height: 1.5; color: #000; }
+body { font-family: 'Noto Sans KR', 'Roboto', sans-serif; font-size: 100%; line-height: 1.5; color: #000;  }
+#wrap { min-width: 1200px; overflow-x: hidden; }
+
+/* float해제 높이값 잡아주기 */
+.clearfix:after { content: ''; display: block; clear: both; }
+
+/* 기준해상도 영역잡기 */
+.inner { width: 1200px; margin: 0 auto; }
 
 
 

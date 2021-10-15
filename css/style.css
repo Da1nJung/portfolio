@@ -4,7 +4,8 @@
 
 #header {position: fixed; left: 0; top: 0; padding: 10px 150px; border-bottom: 1px solid rgba(255,255,255,0.3); width: 100%; z-index: 999;}
 #header .inner {height: 50px; display: flex; justify-content: space-between; align-items: center;}
-#header .inner h1 a {color: #fff; font-size: 20px;}
+#header .inner h1 a {display: block; width: 100px; height: 100px;}
+#header .inner h1 a img {width: 100%;}
 
 #header .gnb {font-family: 'Roboto';}
 #header .gnb li {display: inline-block; margin: 0 40px;}

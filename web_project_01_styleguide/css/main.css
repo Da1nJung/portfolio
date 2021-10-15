@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+#wrap h2 {text-align: center;}
+
+/* 버튼 */
+
+.button {position: absolute; width: 100%; height: 100vh;}
+.more_btn {position: absolute; left: 30px; top: 50px;}
+.more_btn a {transition: 0.3s; display: block; background: #fff; padding: 5px 40px; font-size: 16px; color: #f6c873; font-weight: 600; border: 2px solid #f6c873; border-radius: 30px;}
+
+.more_btn a:hover {background: #f6c873; color: #fff;}
+
+.img_btn {position: absolute; left: 30px; top: 100px;}
+.img_btn a {transition: 0.3s; display: block; background: #fff; padding: 5px 40px; font-size: 16px; color: #f6c873; font-weight: 600; border: 2px solid #f6c873; border-radius: 30px;}
+.img_btn a:hover {background: #f6c873; color: #fff;}
+
+
+.photo {position: absolute; left: 50%; top: 0; transform: translateX(-50%); box-shadow: 0px 5px 20px rgba(0,0,0,0.2); z-index: -9;}
+
+.popup {position: relative; background: rgba(0,0,0,0.7); z-index: 99999; width: 100%; height: 100%;}
+.popup dl {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 500px; height: 100px; background: #fff; padding: 35px 0;}
+.popup dl dt {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+.popup dl dd {position: absolute; right: -10px; top: -30px; font-size: 0; cursor: pointer;}
+.popup dl dd:before {transition: 0.5s; content: ''; display: block; width: 3px; height: 20px; background: #999; transform: rotate(90deg); position: absolute; right: 20px; top: 0;}
+.popup dl dd:after {transition: 0.5s; content: ''; display: block; width: 3px; height: 20px; background: #999; transform: rotate(180deg); position: absolute; right: 20px; top: 0;}
+
+.popup dl dd:hover:before , .popup dl dd:hover:after {background: #fff;}
+.popup dl dd:hover:before {background: #fff; transform: rotate(45deg);}
+.popup dl dd:hover:after {background: #fff; transform: rotate(135deg);}
+
+
+/* header */
+
+#header {background: url(../images/header1_2.png) no-repeat center top; text-align: center;}
+#header .header_txt {padding-top: 85px;}
+#header .pc {padding-top: 25px;}
+
+/* #plan .desc {padding-left: 550px; background:url(../images/dog1.png) no-repeat 990px 115px;}
+#plan .desc .concept {padding-top: 140px;}
+#plan .desc .keyword1 {padding-top: 125px;}
+#plan .desc .keyword2 {padding-top: 30px;}
+#plan .desc .moodboard1 {padding: 125px 0 30px 0;}
+#plan .moodboard2 {text-align: center;} */
+#plan h2 {padding-bottom: 150px;}
+#plan .desc {float: left; padding-top: 50px;}
+#plan .desc .keyword1 {padding-top: 115px;}
+#plan .desc .keyword2 {padding-top: 30px;}
+#plan .desc .moodboard1 {padding-top: 115px;}
+#plan .moodboard2 {text-align: center;}
+#plan .bg {float: right; height: 720px;}
+
+
+#design {padding-top: 180px; text-align: center;}
+#design .logo1 {padding: 140px 0 70px;}
+#design .color1 {padding: 160px 0 30px;}
+#design .color2 li {display: inline-block; padding-right: 30px;}
+#design .color2 li:last-child {padding-right: 0;}
+#design .typo1 {padding: 200px 0 60px;}
+#design .icon1 {padding: 170px 0 60px;}
+
+
+#wire {padding-top: 200px;}
+#wire .wire1 {text-align: center; padding: 10px 0 100px;}
+#wire .wire2 {float: left; padding-left: 160px;}
+#wire .wire3 {float: right; padding-right: 160px;}
+
+#web_design {padding-top: 250px;}
+#web_design .webdesign1 {text-align: center; padding: 10px 0 70px;}
+
+#web_design .main {height: 1221px; position: relative;}
+#web_design .main .main1 {position: absolute; left: 135px; top: 0;}
+#web_design .main .main2 {position: absolute; right: 250px; top: 20px;}
+
+#web_design .sub {height: 1425px; position: relative; margin-top: 140px;}
+#web_design .sub .sub1 {position: absolute; left: 280px; top: 0;}
+#web_design .sub .sub2 {position: absolute; right: 150px; top: 0;}
+
+#mockup h2 {padding: 200px 0 70px;}
+#mockup .mockup_img {text-align: center; line-height: 0;}

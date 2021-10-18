@@ -4,10 +4,9 @@
 
 #header {position: fixed; left: 0; top: 0; padding: 10px 150px; border-bottom: 1px solid rgba(255,255,255,0.3); width: 100%; z-index: 999;}
 #header .inner {height: 50px; display: flex; justify-content: space-between; align-items: center;}
-/* #header .inner h1 a {display: block; width: 100px; height: 100px;}
-#header .inner h1 a img {width: 100%;} */
+#header .inner h1 a {display: block; width: 100px; height: 100px;}
+#header .inner h1 a img {width: 100%;}
 
-#header .inner h1 a {display: block; font-size: 30px; color: #fff; font-weight: 600;}
 
 #header .gnb {font-family: 'Roboto';}
 #header .gnb li {display: inline-block; margin: 0 40px;}
@@ -132,9 +131,11 @@
 /* Aboutme */
 
 #Aboutme {position: relative;}
-
+#Aboutme:before {content: ''; display: block; width: 100%; height: 70px; background: #ffb847; position: absolute; left: 0; top: 0; opacity: 0.6;}
+#Aboutme:after {content: ''; display: block; width: 100%; height: 70px; background: #ffb847; position: absolute; left: 0; bottom: 0; opacity: 0.6;}
 
 #Aboutme h2 {font-size: 50px; color: #222; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 100px; transform: translateX(-50%);}
+#Aboutme h2 span {color: #ffb847;}
 
 .about_txt {font-size: 18px; color: #222; position: absolute; right: 420px; top: 320px;}
 .about_txt span {font-weight: 600;}
@@ -143,7 +144,7 @@
 .about_txt li:first-child {border-top: 1px solid #ddd; }
 
 .photo {width: 400px; height: 500px; position: absolute; left: 500px; top: 270px; font-size: 0; background: url(../images/프로필1.png) no-repeat center center;}
-.photo::before {content: ''; display: block; background: #ffb847; position: absolute; left: 0; top: 0; width: 400px; height: 500px; z-index: -99; opacity: 0.5;}
+.photo::before {content: ''; display: block; background: #ffb847; position: absolute; left: 0; top: 0; width: 400px; height: 500px; z-index: -99; opacity: 0.6;}
 
 
 /* skill */
@@ -151,6 +152,7 @@
 
 
 #Skill h2 {font-size: 50px; color: #fff; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 120px; transform: translateX(-50%);}
+#Skill h2 span {color: #ffb847;}
 
 .charts {position: absolute; left: 50%; top: 350px; transform: translateX(-50%); width: 1500px;}
 .chart {position: relative; float: left; width: 300px; height: 300px; text-align: center;}
@@ -164,6 +166,8 @@
 
 
 #Epilogue h2 {font-size: 50px; color: #222; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 150px; transform: translateX(-50%);}
+#Epilogue h2 span {color: #ffb847;}
+
 #Epilogue p {font-size: 20px; color: #666; position: absolute; left: 50%; top: 250px; transform: translateX(-50%);}
 
 #Epilogue {position: relative; background: #fff;}

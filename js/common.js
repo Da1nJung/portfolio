@@ -62,4 +62,14 @@ $(document).ready(function(){
         onStop: $.noop
     });
  
+
+    $('.card').slick({
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
 });

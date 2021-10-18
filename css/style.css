@@ -136,12 +136,14 @@
 
 #Aboutme h2 {font-size: 50px; color: #222; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 100px; transform: translateX(-50%);}
 
-.about_txt {font-size: 18px; color: #222; position: absolute; left: 420px; top: 320px;}
+.about_txt {font-size: 18px; color: #222; position: absolute; right: 420px; top: 320px;}
+.about_txt span {font-weight: 600;}
 .about_txt li {width: 500px; border-bottom: 1px solid #ddd; padding: 22px 0;}
 .about_txt li a {font-size: 18px; color: #222;}
 .about_txt li:first-child {border-top: 1px solid #ddd; }
 
-.photo {width: 400px; height: 500px; border: 2px solid #ddd; position: absolute; right: 500px; top: 270px; font-size: 0; background: url(../images/프로필1.png) no-repeat center center;}
+.photo {width: 400px; height: 500px; position: absolute; left: 500px; top: 270px; font-size: 0; background: url(../images/프로필1.png) no-repeat center center;}
+.photo::before {content: ''; display: block; background: #ffb847; position: absolute; left: 0; top: 0; width: 400px; height: 500px; z-index: -99; opacity: 0.5;}
 
 
 /* skill */

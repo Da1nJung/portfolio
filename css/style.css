@@ -32,7 +32,8 @@
     font-size: 100px;
     text-transform: uppercase;
     cursor: pointer;
-    font-weight: 900;
+    font-weight: 700;
+    font-family: 'Roboto';
 }
 #main_visual .box h2 span {
     display: inline-flex;
@@ -65,7 +66,7 @@
 
 
 
-#main_visual p {color: rgba(255,255,255,0.7); font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 59%; transform: translateX(-50%);}
+#main_visual p {color: rgba(255,255,255,0.7); font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 61%; transform: translateX(-50%);}
 
 
 

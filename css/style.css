@@ -37,14 +37,14 @@
 }
 #main_visual .box h2 span {
     display: inline-flex;
-    color: #ffbf00;
+    color: #ffb847;
 }
 
 #main_visual .box h2 span:nth-child(even) {
     overflow: hidden;
     transition: ease-in-out 0.5s;
     color: #fff;
-    border-bottom: 5px solid #ffbf00;
+    border-bottom: 5px solid #ffb847;
     letter-spacing: -1em;
 }
 

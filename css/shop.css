@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.wrap {position: relative; width: 100%; height: 100vh;}
+.more_btn {position: absolute; left: 70px; top: 50px;}
+.more_btn a {transition: 0.3s; display: block; background: #fff; padding: 5px 40px; font-size: 16px; color: #839278; font-weight: 600; border: 2px solid #839278; border-radius: 30px;}
+
+.more_btn a:hover {background: #839278; color: #fff;}
+
+.img_btn {position: absolute; left: 70px; top: 100px;}
+.img_btn a {transition: 0.3s; display: block; background: #fff; padding: 5px 40px; font-size: 16px; color: #839278; font-weight: 600; border: 2px solid #839278; border-radius: 30px;}
+.img_btn a:hover {background: #839278; color: #fff;}
+
+
+.photo {position: absolute; left: 50%; top: 0; transform: translateX(-50%); box-shadow: 0px 5px 20px rgba(0,0,0,0.2); z-index: -9;}
+
+.popup {position: relative; background: rgba(0,0,0,0.7); z-index: 99999; width: 100%; height: 100%;}
+.popup dl {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 500px; height: 100px; background: #fff; padding: 35px 0;}
+.popup dl dt {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 100%; text-align: center;}
+.popup dl dd {position: absolute; right: -10px; top: -30px; font-size: 0; cursor: pointer;}
+.popup dl dd:before {transition: 0.5s; content: ''; display: block; width: 3px; height: 20px; background: #999; transform: rotate(90deg); position: absolute; right: 20px; top: 0;}
+.popup dl dd:after {transition: 0.5s; content: ''; display: block; width: 3px; height: 20px; background: #999; transform: rotate(180deg); position: absolute; right: 20px; top: 0;}
+
+.popup dl dd:hover:before , .popup dl dd:hover:after {background: #fff;}
+.popup dl dd:hover:before {background: #fff; transform: rotate(45deg);}
+.popup dl dd:hover:after {background: #fff; transform: rotate(135deg);}

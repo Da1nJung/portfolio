@@ -149,7 +149,7 @@
 
 
 /* skill */
-#Skill {position: relative; background: #ffd491;}
+#Skill {position: relative; background: linear-gradient(0deg, rgba(255,212,145,1) 0%, rgba(255,184,71,0.8) 100%);}
 /* #Skill:before 
 {
     content: ''; 
@@ -165,12 +165,13 @@
 
 #Skill h2 {font-size: 50px; color: #fff; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 120px; transform: translateX(-50%);}
 
-.charts {position: absolute; left: 50%; top: 310px; transform: translateX(-50%); width: 1450px;}
-.chart {transition: 0.5s; position: relative; float: left; width: 270px; height: 380px; text-align: center; background: #fff; margin: 0 10px; padding-top: 30px; box-shadow: 0 6px 15px rgba(0,0,0,0.2);}
+.charts {position: absolute; left: 50%; top: 320px; transform: translateX(-50%); width: 1450px;}
+.chart {transition: 0.5s; position: relative; float: left; width: 270px; height: 380px; text-align: center; background: #fff; margin: 0 10px; padding-top: 40px; box-shadow: 0 6px 15px rgba(0,0,0,0.2);}
 .chart:hover {transform: translateY(-10%);}
 
 
-.chart .desc h3 {font-size: 45px; position: absolute; left: 50%; top: 80px; transform: translateX(-50%); font-weight: 600; color: #ffb847;}
+.chart .desc h3 {font-size: 35px; position: absolute; left: 50%; top: 97px; transform: translateX(-50%); font-weight: 600; color: #3f3833;}
+
 
 .chart .desc dl{position: absolute; left: 50%; top: 220px; transform: translateX(-50%); width: 100%;}
 .chart .desc dt {font-size: 25px; color: #222; font-weight: 600;}

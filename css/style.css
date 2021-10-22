@@ -15,7 +15,7 @@
 #header .util li a {color: rgba(255,255,255,0.7);}
 
 
-#main_visual {background: url(../images/포폴배너2.jpg) no-repeat center top; background-size: cover; text-align: center; position: relative;}
+#main_visual {background: url(../images/포폴배너3.jpg) no-repeat center top; background-size: cover; text-align: center; position: relative;}
 /* #main_visual .box h2 {color: #fff; text-transform: uppercase; font-size: 100px; font-weight: 600; font-family: 'Roboto'; position: absolute; left: 50%; top: 40%; transform: translateX(-50%);} */
 #main_visual .box {
     margin: 0;
@@ -33,6 +33,7 @@
     cursor: pointer;
     font-weight: 700;
     font-family: 'Roboto';
+    text-shadow: 0px 6px 10px rgba(0,0,0,0.3);
 }
 #main_visual .box h2 span {
     display: inline-flex;
@@ -65,7 +66,7 @@
 
 
 
-#main_visual p {color: rgba(255,255,255,0.7); font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 61%; transform: translateX(-50%);}
+#main_visual p {color: #fff; font-size: 20px; font-family: 'Roboto'; letter-spacing: 12px;  position: absolute; left: 50%; top: 61%; transform: translateX(-50%); text-shadow: 0px 6px 10px rgba(0,0,0,0.3);}
 
 
 
@@ -148,20 +149,32 @@
 
 
 /* skill */
-#Skill {position: relative; background: linear-gradient( rgba(32,39,58,1) 0%, rgba(77,96,110,1) 100%);}
+#Skill {position: relative; background: #ffd491;}
+/* #Skill:before 
+{
+    content: ''; 
+    display: block; 
+    width: 0;
+    height: 0;
+    border-right: 1920px solid transparent;
+    border-top: 937px solid #ffb847;
+    position: absolute; right: 0; bottom: 0;
+    opacity: 0.5;
+} */
 
 
 #Skill h2 {font-size: 50px; color: #fff; font-weight: 600; text-transform: uppercase; position: absolute; left: 50%; top: 120px; transform: translateX(-50%);}
-#Skill h2 span {color: #ffb847;}
 
-.charts {position: absolute; left: 50%; top: 350px; transform: translateX(-50%); width: 1500px;}
-.chart {position: relative; float: left; width: 300px; height: 300px; text-align: center;}
+.charts {position: absolute; left: 50%; top: 310px; transform: translateX(-50%); width: 1450px;}
+.chart {transition: 0.5s; position: relative; float: left; width: 270px; height: 380px; text-align: center; background: #fff; margin: 0 10px; padding-top: 30px; box-shadow: 0 6px 15px rgba(0,0,0,0.2);}
+.chart:hover {transform: translateY(-10%);}
 
-.chart .desc h3 {font-size: 45px; position: absolute; left: 50%; top: 50px; transform: translateX(-50%); font-weight: 600;}
+
+.chart .desc h3 {font-size: 45px; position: absolute; left: 50%; top: 80px; transform: translateX(-50%); font-weight: 600; color: #ffb847;}
 
 .chart .desc dl{position: absolute; left: 50%; top: 220px; transform: translateX(-50%); width: 100%;}
-.chart .desc dt {font-size: 25px;}
-.chart .desc dd {font-size: 16px; opacity: 0.7; padding-top: 10px;}
+.chart .desc dt {font-size: 25px; color: #222; font-weight: 600;}
+.chart .desc dd {font-size: 16px; opacity: 0.7; padding-top: 10px; color: #555;}
 
 
 #Epilogue {position: relative;}
